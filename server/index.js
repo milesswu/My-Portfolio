@@ -6,13 +6,18 @@ const PORT = 8000;
 var path = require("path");
 
 const app = express();
-app.use(bodyParser.json());
+// app.use(bodyParser.json());
 app.use(cors());
-
+app.use("/", function(req, res) {
+	console.log(req.url);
+	next();
+});
 //HANDLE GET REQUEST
 app.get("/", function(req, res) {
 	// res.send("hello from server");
-	res.sendFile(path.resolve("../src/index.html"));
+	res.sendFile(
+		path.join(path.resolve("../src"), path.resolve("../src/index.html"))
+	);
 });
 
 app.get("/test", function(req, res) {
