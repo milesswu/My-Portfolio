@@ -6,6 +6,10 @@ body {
 	min-height: 100vh;
 }
 
+.full-width {
+	min-width: 100vw;
+}
+
 .height-80 {
 	min-height: 80vh;
 }
@@ -134,4 +138,11 @@ body {
 .nav-link:hover,
 .nav-link:focus {
 	color: black !important;
+}
+
+.title-underline {
+	width: 160px;
+	height: 10px;
+	margin: 0 auto;
+	/* background: blue!important; */
 }
