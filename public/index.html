@@ -29,6 +29,61 @@
 		<link rel="stylesheet" href="./css/main.css" />
 	</head>
 	<body>
+		<!-- Navigation -->
+		<nav class="navbar navbar-expand-md fixed-top">
+			<!-- Personal Links -->
+			<div class="navbar-brand d-flex">
+				<a
+					href="https://linkedin.com/in/milesswu"
+					target="_blank"
+					class="nav-link"
+				>
+					<i class="fab fa-linkedin-in"></i>
+				</a>
+				<a
+					href="https://github.com/milesswu"
+					target="_blank"
+					class="nav-link"
+				>
+					<i class="fab fa-github"></i>
+				</a>
+				<a href="./shared/Wu_Miles_Resume.pdf" class="nav-link">
+					Resume
+				</a>
+			</div>
+
+			<button
+				class="navbar-toggler"
+				data-toggle="collapse"
+				data-target="#navResponsive"
+			>
+				<span class="navbar-toggler-icon"> </span>
+			</button>
+
+			<div class="navbar-collapse collapse" id="navResponsive">
+				<ul class="navbar-nav ml-auto text-right">
+					<li class="navbar-item">
+						<a href="#skills" class="nav-link mx-2 page-scroll"
+							>Skills</a
+						>
+					</li>
+					<li class="navbar-item">
+						<a href="" class="nav-link mx-2">Projects</a>
+					</li>
+					<li class="navbar-item">
+						<a href="" class="nav-link mx-2">About</a>
+					</li>
+					<li class="navbar-item">
+						<a href="" class="nav-link mx-2">Contact</a>
+					</li>
+					<li class="navbar-item">
+						<a href="" class="nav-link mx-2"></a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!-- End of Navigation -->
+
 		<!-- Header -->
 		<header id="header" class="">
 			<div
@@ -73,74 +128,9 @@
 		</header>
 		<!-- End of Header -->
 
-		<!-- Navigation -->
-		<nav class="navbar navbar-expand-md bg-light navbar-light sticky-top">
-			<!-- brand -->
-			<div href="#header" class="navbar-brand d-flex">
-				<a
-					href="https://linkedin.com/in/milesswu"
-					target="_blank"
-					class="nav-link"
-				>
-					<i class="fab fa-linkedin-in"></i>
-				</a>
-				<a
-					href="https://github.com/milesswu"
-					target="_blank"
-					class="nav-link"
-				>
-					<i class="fab fa-github"></i>
-				</a>
-			</div>
-
-			<!-- toggler -->
-			<button
-				class="navbar-toggler"
-				data-toggle="collapse"
-				data-target="#navEl"
-			>
-				<span class="navbar-toggler-icon"></span>
-			</button>
-
-			<div class="navbar-collapse collapse" id="navEl">
-				<ul class="navbar-nav ml-auto mr-5">
-					<li class="navbar-item">
-						<a href="#skills" class="nav-link page-scroll">
-							Skills
-						</a>
-					</li>
-					<li class="navbar-item">
-						<a href="#projects" class="nav-link page-scroll">
-							Projects
-						</a>
-					</li>
-					<li class="navbar-item">
-						<a href="#about" class="nav-link page-scroll">
-							About
-						</a>
-					</li>
-					<li class="navbar-item">
-						<a href="#" class="nav-link page-scroll">
-							Contact
-						</a>
-					</li>
-					<li class="navbar-item">
-						<a
-							href="./shared/Wu_Miles_Resume.pdf"
-							target="_blank"
-							class="nav-link"
-						>
-							Resume
-						</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-		<!-- End of Navigation -->
-
 		<!-- Skills Section -->
 		<section id="skills" class="bg-white py-5">
-			<div class="container">
+			<div class="container full-height">
 				<!-- title -->
 				<div class="row">
 					<div class="col text-center">
@@ -177,5 +167,7 @@
 		<script src="./js/jquery-3.4.1.min.js"></script>
 		<!-- Bootstrap JS -->
 		<script src="./js/bootstrap.bundle.min.js"></script>
+		<!-- Page Events -->
+		<script src="./js/scripts.js"></script>
 	</body>
 </html>

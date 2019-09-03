@@ -122,14 +122,6 @@ body {
 	}
 }
 
-/* .icon-link {
-	color: grey;
-} */
-/* .icon-link:hover,
-.icon-link:focus {
-	color: black;
-} */
-
 .nav-link {
 	color: grey;
 	font-size: 1.2em;
@@ -137,7 +129,12 @@ body {
 
 .nav-link:hover,
 .nav-link:focus {
-	color: black !important;
+	color: white !important;
+}
+
+.nav-scroll {
+	background-color: black;
+	transition: 1s;
 }
 
 .title-underline {
