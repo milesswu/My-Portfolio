@@ -6,6 +6,10 @@ body {
 	min-height: 100vh;
 }
 
+.eight-height {
+	min-height: 80vh;
+}
+
 .full-width {
 	min-width: 100vw;
 }
