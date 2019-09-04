@@ -141,5 +141,9 @@ body {
 	width: 160px;
 	height: 10px;
 	margin: 0 auto;
-	/* background: blue!important; */
+	background-color: #fff;
+}
+
+#skills {
+	background-color: #1e3670;
 }
