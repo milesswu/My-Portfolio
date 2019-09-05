@@ -10,8 +10,4 @@
     <circle cx="192.5" cy="192.5" r="192" fill="none"/>
   </g>
   <text id="UCLA" transform="translate(11 142)" fill="#fff" font-size="100" font-family="Arial-BoldItalicMT, Arial" font-weight="700" font-style="italic" letter-spacing="0.01em"><tspan x="41.133" y="91">UCLA</tspan></text>
-  <g id="Overlay" transform="translate(0 2)" stroke="#707070" stroke-width="1" opacity="0">
-    <ellipse cx="192" cy="191.5" rx="192" ry="191.5" stroke="none"/>
-    <ellipse cx="192" cy="191.5" rx="191.5" ry="191" fill="none"/>
-  </g>
 </svg>

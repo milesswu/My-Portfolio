@@ -142,9 +142,9 @@ nav {
 }
 
 .title-underline {
-	width: 160px;
-	height: 10px;
-	margin: 0 auto;
+	width: 100px;
+	height: 2px;
+	margin: 8px auto;
 	background-color: #fff;
 }
 
@@ -158,52 +158,51 @@ nav {
 	/* background-color: white; */
 }
 
-/* .icon-container {
-	border-radius: 100%;
-	width: 385;
-	max-height: 40vh;
-	overflow: hidden;
-	position: relative;
-	display: flex;
+.about-message {
+	margin: 0 10%;
+	color: white;
+}
+
+.about-icons {
+	width: 100%;
+	height: 100%;
 	justify-content: center;
 	align-items: center;
-} */
+}
 .icon-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	min-height: 50%;
 }
-
-.icon {
-	width: 100%;
-	max-height: 40vh;
+.icon,
+.icon-overlay {
+	height: 300px;
+	width: 300px;
 }
-/* .icon:hover #Overlay {
-	opacity: 0.8;
-	transition: 0.3s;
-} */
-/* .icon-overlay {
+.icon-overlay {
 	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	height: 100%;
-	width: 100%;
-	opacity: 0;
+	border-radius: 50%;
 	background-color: black;
-	transition: 0.5s;
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
 	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: 0.3s ease;
+}
+.icon-overlay:hover {
+	opacity: 0.8;
 }
 .icon-overlay-text {
 	color: white;
-}
-.icon-container:hover .icon-overlay {
-	opacity: 0.8;
-}
-
-.icon-container:hover .icon-overlay-text {
 	opacity: 1;
-} */
+}
+@media screen and (min-width: 1800px) {
+	.icon,
+	.icon-overlay {
+		height: 400px;
+		width: 400px;
+	}
+}
