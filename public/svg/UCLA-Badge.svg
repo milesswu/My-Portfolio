@@ -1,0 +1,78 @@
+<svg id="UCLA-Badge" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="385" height="385" viewBox="0 0 385 385">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        stroke: #707070;
+      }
+
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2, .cls-5, .cls-6, .cls-7 {
+        fill: #fff;
+        font-family: Arial-BoldItalicMT, Arial;
+        font-weight: 700;
+        font-style: italic;
+        letter-spacing: 0.01em;
+      }
+
+      .cls-2 {
+        font-size: 100px;
+      }
+
+      .cls-3, .cls-4 {
+        opacity: 0;
+      }
+      .cls-4 {
+        pointer-events: none;
+      }
+      .cls-3:hover {
+        opacity: .8;
+        transition: .3s
+      }
+      .cls-3:hover + #Message {
+        opacity: 1;
+        transition: .3s
+      }
+
+      .cls-5 {
+        font-size: 26px;
+      }
+
+      .cls-6 {
+        font-size: 20px;
+      }
+
+      .cls-7 {
+        font-size: 48px;
+      }
+
+      .cls-8 {
+        stroke: none;
+      }
+
+      .cls-9 {
+        fill: none;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5ebcff"/>
+      <stop offset="1" stop-color="#1a7fd8"/>
+    </linearGradient>
+  </defs>
+  <g id="Ellipse_1" data-name="Ellipse 1" class="cls-1">
+    <circle class="cls-8" cx="192.5" cy="192.5" r="192.5"/>
+    <circle class="cls-9" cx="192.5" cy="192.5" r="192"/>
+  </g>
+  <text id="UCLA" class="cls-2" transform="translate(11 142)"><tspan x="41.133" y="91">UCLA</tspan></text>
+  <g id="Overlay" class="cls-3" transform="translate(0 2)">
+    <ellipse class="cls-8" cx="192" cy="191.5" rx="192" ry="191.5"/>
+    <ellipse class="cls-9" cx="192" cy="191.5" rx="191.5" ry="191"/>
+  </g>
+  <g id="Message" class="cls-4" transform="translate(-58 -208)">
+    <text id="B.S._Computer_Science" data-name="B.S. Computer Science" class="cls-5" transform="translate(251 474)"><tspan x="-145.638" y="0">B.S. Computer Science</tspan></text>
+    <text id="University_of_California:_Los_Angeles" data-name="University of California: Los Angeles" class="cls-6" transform="translate(251 368)"><tspan x="-178.263" y="0">University of California: Los Angeles</tspan></text>
+    <text id="Class_of_2022" data-name="Class of 2022" class="cls-7" transform="translate(250 417)"><tspan x="-156.302" y="0">Class of 2022</tspan></text>
+  </g>
+</svg>

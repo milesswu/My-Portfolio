@@ -7,15 +7,15 @@ body {
 }
 
 .eight-height {
-	min-height: 80vh;
+	min-height: 85vh;
+}
+
+.half-height {
+	min-height: 50vh;
 }
 
 .full-width {
 	min-width: 100vw;
-}
-
-.height-80 {
-	min-height: 80vh;
 }
 
 #background-carousel {
@@ -126,19 +126,19 @@ body {
 	}
 }
 
+nav {
+	transition: 0.6s;
+}
 .nav-link {
 	color: grey;
 	font-size: 1.2em;
 }
-
 .nav-link:hover,
 .nav-link:focus {
 	color: white !important;
 }
-
 .nav-scroll {
 	background-color: black;
-	transition: 0.8s;
 }
 
 .title-underline {
@@ -148,7 +148,8 @@ body {
 	background-color: #fff;
 }
 
-#skills {
+#skills,
+#about {
 	background-color: #1e3670;
 }
 
@@ -156,3 +157,53 @@ body {
 	background-color: #416788;
 	/* background-color: white; */
 }
+
+/* .icon-container {
+	border-radius: 100%;
+	width: 385;
+	max-height: 40vh;
+	overflow: hidden;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} */
+.icon-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon {
+	width: 100%;
+	max-height: 40vh;
+}
+/* .icon:hover #Overlay {
+	opacity: 0.8;
+	transition: 0.3s;
+} */
+/* .icon-overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	background-color: black;
+	transition: 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.icon-overlay-text {
+	color: white;
+}
+.icon-container:hover .icon-overlay {
+	opacity: 0.8;
+}
+
+.icon-container:hover .icon-overlay-text {
+	opacity: 1;
+} */

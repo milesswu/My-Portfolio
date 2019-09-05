@@ -1,0 +1,17 @@
+<svg id="UCLA-Badge" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 385 385">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5ebcff"/>
+      <stop offset="1" stop-color="#1a7fd8"/>
+    </linearGradient>
+  </defs>
+  <g id="Ellipse_1" data-name="Ellipse 1" stroke="#707070" stroke-width="1" fill="url(#linear-gradient)">
+    <circle cx="192.5" cy="192.5" r="192.5" stroke="none"/>
+    <circle cx="192.5" cy="192.5" r="192" fill="none"/>
+  </g>
+  <text id="UCLA" transform="translate(11 142)" fill="#fff" font-size="100" font-family="Arial-BoldItalicMT, Arial" font-weight="700" font-style="italic" letter-spacing="0.01em"><tspan x="41.133" y="91">UCLA</tspan></text>
+  <g id="Overlay" transform="translate(0 2)" stroke="#707070" stroke-width="1" opacity="0">
+    <ellipse cx="192" cy="191.5" rx="192" ry="191.5" stroke="none"/>
+    <ellipse cx="192" cy="191.5" rx="191.5" ry="191" fill="none"/>
+  </g>
+</svg>
