@@ -74,13 +74,6 @@ body {
 	}
 }
 
-#fixed {
-	background-image: url(../img/landscape-4.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-}
-
 #down {
 	position: absolute;
 	bottom: 5%;
@@ -141,6 +134,10 @@ nav {
 	background-color: black;
 }
 
+.personal-links {
+	display: flex;
+}
+
 .title-underline {
 	width: 100px;
 	height: 2px;
@@ -156,6 +153,10 @@ nav {
 #projects {
 	background-color: #416788;
 	/* background-color: white; */
+}
+
+#contact {
+	background-color: #545f6b;
 }
 
 .about-message {
@@ -205,4 +206,17 @@ nav {
 		height: 400px;
 		width: 400px;
 	}
+}
+
+.resume-btn {
+	margin: 30px auto;
+	padding: 15px;
+	border: 1px solid grey;
+	font-size: 1rem;
+	color: grey;
+	background-color: transparent;
+}
+.resume-btn:hover {
+	color: white;
+	border-color: white;
 }
