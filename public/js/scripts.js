@@ -29,7 +29,7 @@ function setupEventListeners() {
 				console.log("2", document.querySelector("nav").offsetHeight);
 				$("html, body").animate(
 					{
-						scrollTop: target.offset().top - navBarHeight,
+						scrollTop: target.offset().top - navBarHeight + 5,
 					},
 					900
 				);
