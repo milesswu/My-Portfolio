@@ -305,20 +305,20 @@ nav {
 	justify-content: center;
 	align-items: center;
 }
-
+.resume-btn-container {
+	align-items: center;
+	justify-content: center;
+	min-height: 14vh;
+	padding-bottom: 15px;
+}
 .resume-btn {
-	margin: 30px auto;
 	padding: 15px;
-	/* border: 1px solid transparent; */
 	font-size: 1.2rem;
 	color: white;
 	background: linear-gradient(45deg, #76e5fc, #9cadff);
-	/* background: #9cadff; */
 	transition: 0.3s;
 }
 .resume-btn:hover {
-	/* color: #76e5fc; */
-	/* background: linear-gradient(45deg, #111, #112); */
 	color: white;
 	font-size: 1.5rem;
 }
