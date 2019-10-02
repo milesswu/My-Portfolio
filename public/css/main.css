@@ -162,12 +162,15 @@ nav {
 	text-align: center;
 	min-height: 50vh;
 }
+.jumbotron-content {
+	max-width: 960px;
+}
 #jumbotron-header {
 	font-size: 40px;
 }
 #jumbotron-caption {
 	font-size: 15px;
-	color: rgba(254, 254, 254, 0.9);
+	color: rgba(223, 215, 215, 0.805);
 }
 
 .invert-action {
