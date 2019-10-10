@@ -46,7 +46,7 @@ nav {
 .gradient-theme {
 	background: linear-gradient(45deg, #4d3dcc, #9cadff, #76e5fc, #3cdcfc);
 	background-size: 400%;
-	animation: gradient-shift 30s ease-in-out infinite alternate;
+	animation: gradient-shift 25s ease-in-out infinite alternate;
 
 	position: absolute;
 	height: 100%;
@@ -80,6 +80,7 @@ nav {
 	font-style: normal;
 	font-weight: normal;
 	margin-bottom: 2vh;
+	/* text-transform: uppercase; */
 }
 .hero-caption h3 {
 	font-size: 20px;
@@ -147,7 +148,10 @@ nav {
 	}
 }
 
-#home,
+#home {
+	/* background-color: #343a40; */
+	background-color: #21425b;
+}
 #skills {
 	background-color: #21425b;
 }
@@ -208,7 +212,7 @@ nav {
 }
 
 .projects-title {
-	background-color: black;
+	background-color: #343a40;
 }
 .projects-title > col {
 	display: flex;
@@ -295,7 +299,7 @@ nav {
 		flex-direction: column;
 		align-items: center;
 		padding: 5% auto;
-		border-left: 1px solid gray;
+		border-left: 1px solid black;
 	}
 	.tech-header {
 		font-size: 1.2rem;
