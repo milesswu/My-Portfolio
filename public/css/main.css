@@ -46,12 +46,12 @@ nav {
 .gradient-theme {
 	background: linear-gradient(45deg, #4d3dcc, #9cadff, #76e5fc, #3cdcfc);
 	background-size: 400%;
-	animation: gradient-shift 25s ease-in-out infinite alternate;
+	animation: gradient-shift 22s ease-in-out infinite alternate;
 
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	opacity: 0.92;
+	opacity: 0.8;
 }
 @keyframes gradient-shift {
 	from {
@@ -212,7 +212,7 @@ nav {
 }
 
 .projects-title {
-	background-color: #343a40;
+	background-color: black;
 }
 .projects-title > col {
 	display: flex;
@@ -226,6 +226,9 @@ nav {
 .project-desc {
 	margin: 5vh 0;
 	padding: 0 5vw;
+}
+.project-img {
+	background-color: black;
 }
 .project-button-container {
 	display: flex;
