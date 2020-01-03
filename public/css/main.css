@@ -1,7 +1,17 @@
 body {
-	font-family: Yu Gothic UI;
+	font-family: "Alata", Ebrima, sans-serif;
 	font-style: normal;
+	font-size: 1rem;
 	font-weight: normal;
+}
+@media screen and (min-width: 2000px) {
+	body {
+		font-size: 1.5rem;
+	}
+}
+
+a {
+	font-family: "Alata", Ebrima, sans-serif !important;
 }
 
 .full-height {
@@ -29,7 +39,7 @@ nav {
 }
 .nav-link {
 	color: grey;
-	font-size: 1.2em;
+	font-size: 1rem;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -37,6 +47,11 @@ nav {
 }
 .nav-scroll {
 	background-color: black;
+}
+@media screen and (min-width: 896px) {
+	.nav-link {
+		font-size: 1.2em;
+	}
 }
 
 .personal-links {
@@ -76,14 +91,14 @@ nav {
 	text-align: left;
 }
 .hero-caption #name {
-	font-size: 70px;
+	font-size: 4.375rem;
 	font-style: normal;
 	font-weight: normal;
 	margin-bottom: 2vh;
 	/* text-transform: uppercase; */
 }
 .hero-caption h3 {
-	font-size: 20px;
+	font-size: 1.25px;
 	font-style: normal;
 	font-weight: normal;
 	margin-bottom: 5vh;
@@ -130,21 +145,32 @@ nav {
 
 @media screen and (min-width: 410px) {
 	.hero-caption #name {
-		font-size: 90px;
+		font-size: 5.625rem;
 		font-style: normal;
 		font-weight: normal;
 		margin-bottom: 2vh;
 	}
 	.hero-caption h3 {
-		font-size: 30px;
+		font-size: 1.875rem;
 		font-style: normal;
 		font-weight: normal;
 		margin-bottom: 5vh;
 		margin-left: 5px;
 	}
 	.call-to-action {
-		font-size: 20px;
+		font-size: 1.25rem;
 		width: 50%;
+	}
+}
+@media screen and (min-width: 2000px) {
+	.hero-caption #name {
+		font-size: 8rem;
+	}
+	.hero-caption h3 {
+		font-size: 3.5rem;
+	}
+	.call-to-action {
+		font-size: 2rem;
 	}
 }
 
@@ -219,16 +245,27 @@ nav {
 	align-items: center;
 }
 .project-entry {
-	min-height: 40vh;
+	/* max-height: 40vh; */
 	/* border-top: 1px solid black; */
+	height: auto;
 	border-bottom: 1px solid black;
 }
 .project-desc {
-	margin: 5vh 0;
+	margin: 4rem 0;
 	padding: 0 5vw;
 }
-.project-img {
+.project-img-container {
 	background-color: black;
+	padding: 0;
+	border-right: solid 1px black;
+	border-left: solid 1px black;
+	max-height: 100%;
+	align-items: center;
+	justify-content: center;
+}
+.project-img {
+	max-height: 100%;
+	width: auto;
 }
 .project-button-container {
 	display: flex;
@@ -236,13 +273,15 @@ nav {
 }
 .project-button {
 	color: black;
-	background-color: #fff;
+	background-color: transparent;
 	display: block;
-	padding: 8px;
+	padding: 0.5rem 0.75rem;
 	margin: 0 5px;
 	margin-top: 2vh;
 	border-radius: 30.5px;
 	border: 2px solid black;
+	box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+		0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
 
 	font-family: Ebrima;
 	font-style: normal;
@@ -257,6 +296,19 @@ nav {
 	background-color: black;
 	color: white;
 }
+.project-button-disabled {
+	border: 1px solid rgba(0, 0, 0, 0.26);
+	color: rgba(0, 0, 0, 0.26) !important;
+	box-shadow: none;
+	cursor: default;
+}
+.project-button-disabled:hover {
+	cursor: default;
+	border: 1px solid rgba(0, 0, 0, 0.26);
+	background-color: transparent;
+	color: rgba(0, 0, 0, 0.26) !important;
+}
+
 .project-tech-container {
 	display: flex;
 	flex-direction: row;
@@ -272,22 +324,31 @@ nav {
 	padding: 0 2px;
 }
 
-.project-1 {
+.project-3 {
+	background: url(../img/story-seeker.png) no-repeat;
+	background-size: 100% 100%;
+	min-height: 100%;
+	width: 100%;
+}
+
+.project-2 {
 	background: url(../img/sort-visualizer.png) no-repeat;
 	background-size: cover;
 	min-height: 100%;
 }
+
+.project-1 {
+	color: white;
+	font-size: 5rem;
+}
 @media screen and (min-width: 768px) {
-	#project-2-img {
+	#project-1-img {
 		display: flex !important;
 		justify-content: center;
 		align-items: center;
 	}
 }
-.project-2 {
-	color: white;
-	font-size: 5rem;
-}
+
 @media screen and (min-width: 425px) {
 	.tech-header {
 		font-size: 1.2rem;
