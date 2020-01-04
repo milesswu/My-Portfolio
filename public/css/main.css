@@ -275,6 +275,11 @@ PROJECTS SECTION
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	height: auto;
+}
+
+.embed-responsive-item {
+	width: 98% !important;
 }
 
 /* 
