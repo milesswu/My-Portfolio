@@ -341,6 +341,10 @@ ABOUT SECTION
 	background-color: #21425b;
 	color: white;
 }
+.about-message {
+	line-height: 1.6;
+	font-weight: 200;
+}
 
 /* 
 ************************************************************************************
