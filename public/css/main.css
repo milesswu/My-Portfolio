@@ -385,7 +385,7 @@ EXPERIENCE SECTION
 #rotary {
 	display: none;
 }
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 475px) {
 	#rotary {
 		display: block;
 	}
