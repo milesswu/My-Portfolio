@@ -20,9 +20,7 @@ function setupEventListeners() {
 			var target = $(this.hash);
 
 			//if couldnt find by hash, try to find by name
-			target = target.length
-				? target
-				: $("[name=" + this.hash.slice(1) + "]");
+			target = target.length ? target : $("[name=" + this.hash.slice(1) + "]");
 			// console.log(this, target);
 			console.log("1", document.querySelector("nav").offsetHeight);
 			if (target.length) {
@@ -31,7 +29,7 @@ function setupEventListeners() {
 					{
 						scrollTop: target.offset().top - navBarHeight + 5,
 					},
-					900
+					900,
 				);
 				console.log("3", document.querySelector("nav").offsetHeight);
 				return false;

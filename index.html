@@ -7,6 +7,11 @@
 			content="width=device-width, initial-scale=1.0, user-scalable=false"
 		/>
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<meta property="og:image" content="./public/img/Thumbnail.png" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="milesswu.net" />
+		<meta property="og:title" content="Miles Wu" />
+
 		<title>Miles Wu</title>
 
 		<!-- Bootstrap CSS -->
@@ -246,11 +251,11 @@
 				</div>
 				<div class="row project-entry">
 					<div class="col-12 col-lg-7 project-img-container embed-responsive">
-						<video
-							class="embed-responsive-item"
-							src="./public/shared/Mouse_Demo.mov"
-							controls
-						></video>
+						<video class="embed-responsive-item" controls>
+							<source src="./public/shared/Mouse_Demo.mov" type="video/mp4" />
+							Your browser does not support embedded video. Click
+							<a href="./public/shared/Mouse_Demo.mov">here</a> to view.
+						</video>
 					</div>
 					<div class="col-12 col-lg-5 pr-0">
 						<p class="sub-title">MicroMouse</p>
@@ -271,7 +276,7 @@
 						</p>
 						<div class="button-container-horizontal">
 							<a
-								class="button button-primary d-lg-none"
+								class="button button-primary"
 								target="_blank"
 								href="public/shared/Mouse_Demo.mov"
 							>
@@ -343,14 +348,13 @@
 
 				<div class="row">
 					<div class="col-12 col-md-6 col-lg-4 pt-4 mx-auto">
-						<div class="card">
+						<div class="card skill-card">
 							<div class="card-body">
 								<h3 class="card-title text-center">
 									Languages
 								</h3>
 								<ul>
-									<li>C++</li>
-									<li>C</li>
+									<li>C / C++</li>
 									<li>Python</li>
 									<li>Kotlin</li>
 									<li>Javascript / ES6+ / jQuery</li>
@@ -365,7 +369,7 @@
 						</div>
 					</div>
 					<div class="col-12 col-md-6 col-lg-4 py-4 mx-auto">
-						<div class="card">
+						<div class="card skill-card">
 							<div class="card-body">
 								<h3 class="card-title text-center">
 									Frameworks
@@ -373,6 +377,7 @@
 								<ul>
 									<li>React.js</li>
 									<li>Angular.js</li>
+									<li>Android Studio</li>
 									<li>React Native</li>
 									<li>Bootstrap 4</li>
 								</ul>
@@ -381,8 +386,8 @@
 									Tools
 								</h3>
 								<ul>
+									<li>Node.js</li>
 									<li>Redux</li>
-									<li>React Redux</li>
 									<li>AJAX</li>
 									<li>SQL</li>
 									<li>Git</li>
@@ -391,7 +396,7 @@
 						</div>
 					</div>
 					<div class="col-12 col-md-6 col-lg-4 py-4 mx-auto">
-						<div class="card">
+						<div class="card skill-card">
 							<div class="card-body">
 								<h3 class="card-title text-center">
 									Other
@@ -401,7 +406,7 @@
 									<li>Multithreading</li>
 									<li>Adobe XD</li>
 									<li>Unity</li>
-									<li>Arduino Nano</li>
+									<li>Arduino Uno / Nano</li>
 									<li>Google App Suite</li>
 								</ul>
 							</div>
@@ -417,7 +422,7 @@
 			<div class="container">
 				<!-- experience title -->
 				<div class="row">
-					<div class="cl">
+					<div class="col">
 						<h1 class="section-title">Experience</h1>
 					</div>
 				</div>
@@ -456,7 +461,7 @@
 										Contribute to the development of curriculum in Hack's
 										quarter long educational programs.
 									</li>
-									<li>Teach and mentor at workshops</li>
+									<li>Teach and mentor at workshops.</li>
 								</ul>
 							</div>
 						</div>
@@ -485,7 +490,10 @@
 									<li>
 										Implement the SWE Event Portal with a team of developers.
 									</li>
-									<li>Primarily utilizing React.js and Material-UI.</li>
+									<li>
+										Primarily utilizing tools like React and Material-UI for the
+										front-end, PostgreSQL and Postman for the backend.
+									</li>
 								</ul>
 							</div>
 						</div>

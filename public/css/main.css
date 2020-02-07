@@ -116,6 +116,9 @@ section {
 	border-radius: 0.5rem;
 	height: 100%;
 }
+.skill-card {
+	height: auto;
+}
 
 .card-img-container {
 	display: flex;
@@ -164,7 +167,7 @@ nav {
 	transition: 0.3s ease-in-out;
 }
 .nav-link {
-	color: rgb(185, 182, 182) !important;
+	color: #b9b6b6;
 	font-size: 1rem;
 }
 .nav-link:hover,
