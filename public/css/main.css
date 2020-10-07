@@ -167,12 +167,12 @@ HERO SECTION
 .gradient-theme {
 	background: linear-gradient(45deg, #4d3dcc, #9cadff, #76e5fc, #3cdcfc);
 	background-size: 400%;
-	animation: gradient-shift 22s ease-in-out infinite alternate;
+	animation: gradient-shift 10s ease-in-out infinite alternate;
 
 	position: absolute;
 	height: 100%;
 	width: 100%;
-	opacity: 0.8;
+	opacity: 0.6;
 }
 @keyframes gradient-shift {
 	from {
